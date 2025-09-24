@@ -1,2 +1,6 @@
 rootProject.name = 'javapractice'
 
+include 'designpatterns'
+include 'dsa'
+include 'other'
+

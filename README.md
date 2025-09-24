@@ -1,57 +1,11 @@
 # Into
 
-This project contains implementations in java for a bunch of standard problems.
-They are grouped into 3 categories
-* Data Structures and Algorithms - sorting, searching, graphs etc
-* Design Patterns - singleton, adapter, bridge, observer etc
-* Other - everything that doesn't fit
+This project is a collection of small projects each of which is tackling some problem/technology using java as primary language.
+These projects are independent with only 1 reason - make each one smaller. 
+Some projects may require specific dependencies and this way each task will keep only necessary dependencies.
 
-See list below of what is ready and what is planned.
+Every project is expected to have its own readme file so consider this one like an index.
 
-Most implementation go with a test suite, you can try implementing algorithm yourself 
-and validate your implementation by injecting into corresponding it into a corresponding test class.
-
-
-# Data Structures and Algorithms
-
-* Quicksort
-* Mergesort
-* Prims MST
-
-# Design Patterns
-
-## Creational Patterns
-* Abstract Factory (todo)
-* Builder (todo)
-* Factory Method (todo)
-* Prototype
-* Singleton
-
-## Structural Patterns
-* Adapter
-* Bridge (todo)
-* Composite (todo)
-* Decorator (todo)
-* Facade (todo)
-* Flyweight
-* Proxy (todo)
-
-## Behavioral Patterns
-* Chain of Responsibility (todo)
-* Command  (todo)
-* Iterator (todo)
-* Mediator (todo)
-* Memento 
-* Observer
-* State (todo)
-* Strategy (todo)
-* Template Method (todo)
-* Visitor
-
-Total Progress: 7 / 22
-
-# Other
-
-* Deadlock
-* Livelock
-* Starvation lock
+* [dsa](./dsa/README.md) - java implementation of some common data structures and algorithms
+* [design patterns](./designpatterns/README.md) - examples of the most common design patterns written in java
+* [other](./other/README.md) - everything that is too small for a separate project but might be interesting
